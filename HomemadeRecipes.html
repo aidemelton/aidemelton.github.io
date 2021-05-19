@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Homemade Recipes</title>
+        <meta charset="utf-8">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+       
+        <style>
+        .Recipes{
+            background-color: rgb(58, 161, 60);
+            color: rgba(255,255,255,1);
+            border-radius: 6px;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .Space {
+            margin: 7px;
+            padding: 10px;
+        }
+        
+        .Sources { 
+            text-align: center;
+        }
+        
+        .header {
+          padding: 29px;
+          text-align: center;
+          margin: 0;
+          border-radius: 0px;
+          background: rgba(58, 161, 60);
+          opacity: 0.9;
+          /* background-image: linear-gradient(to right, rgba(8, 207, 91,1), rgba(110, 222, 104,1)); */ }
+    
+        .footer {
+          padding: 29px;
+          text-align: center;
+          margin: 0;
+          border-radius: 0px;
+          background: rgba(58, 161, 60);
+          opacity: 0.9;
+          /* background-image: linear-gradient(to right, rgba(8, 207, 91,1), rgba(110, 222, 104,1)); */ }
+          
+         .footer:hover {
+             opacity: 1;
+             cursor: pointer;
+         }
+    
+        .button {
+          background-color: rgba(58, 161, 60); 
+          border: none;
+          border-radius: 0px;
+          opacity: 0.9;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-weight: bold;
+          font-size: 16px;
+          margin: 0px -2px;
+          cursor: pointer;
+          -webkit-transition-duration: 0.4s; /* Safari */
+          transition-duration: 0.4s;
+        }
+        
+        .ButtonDisabled {
+          background-color: rgba(58, 161, 60); 
+          border: none;
+          border-radius: 0px;
+          opacity: 0.6;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 0px -2px;
+          cursor: pointer;
+          -webkit-transition-duration: 0.4s; /* Safari */
+          transition-duration: 0.4s;
+        }
+        
+        .ButtonDisabled:hover {
+            cursor: not-allowed;
+        }
+        
+        .button:hover {
+            opacity:1;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0,0.2),0 6px 50px 0
+        }
+        
+        .topNav {
+         background: rgba(58, 161, 60);
+         opacity: 0.8;
+        }
+        
+        #FontColorWhite {
+            color: rgba(255,255,255,1);
+            text-align: center;
+            background: rgba(58, 161, 60);
+            opacity: 0.9;
+            font-weight: bold;
+        }
+        
+        h2 {
+            color: rgb(73, 130, 68);
+        }
+        h1 {
+            color: rgb(255, 255, 255);
+            font-size: 42px;
+          
+        }
+        
+        a {
+            color: rgba(28, 77, 34);
+        }
+        
+        </style>
+    </head>
+    <body>
+       
+<div class="header"><div class="FontColorWhite"><h1 id="BeginingOfPage">Homemade Recipes</h1></div></div>
+
+<div class="topNav">
+        <a href="#BrownieRecipe"><button class="button">Brownies</button></a>
+        <a href="#CookieRecipe"><button class="button">Cookies</button></a>
+        <a href="#LemonadeRecipe"><button class="button">Lemonade</button></a>
+        <button class="ButtonDisabled">More</button>
+</div>
+        
+<div class="Space">
+
+        <!-- Brownies Section -->
+        
+        <h2 id="BrownieRecipe">Recipe #1 - <i>Brownies </i></h2>
+        
+        <ul class="Recipes">
+            <li><strong>Time:</strong> Roughly 45 Minutes</li>
+            <li><strong>Serves:</strong> 16 Brownies</li>
+        </ul>
+        
+        <!-- Brown Ingredients Section -->
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+                
+                <tr>
+                    <td>Granulated Sugar</td>                   <td>1 1/2 Cups</td>
+                </tr>
+                
+                 <tr>
+                    <td>All-Purpose Flour</td>                   <td>3/4 Cups</td>
+                </tr>
+                
+                 <tr>
+                    <td>Cocoa Poweder</td>                   <td>2/3 Cups</td>
+                </tr>
+                
+                 <tr>
+                    <td>Dark Chocolate Chips</td>                   <td>1/2 Cups</td>
+                </tr>
+                
+                 <tr>
+                    <td>Sea Salt</td>                   <td>3/4 Teaspoons</td>
+                </tr>
+                
+                 <tr>
+                    <td>Large Eggs</td>                   <td>2</td>
+                </tr>
+                
+                 <tr>
+                    <td>Canola Oil</td>                   <td>1/2 Cup</td>
+                </tr>
+                
+                 <tr>
+                    <td>Water</td>                   <td>2 Tablespoons</td>
+                </tr>
+                 <tr>
+                    <td>Vanilla</td>                   <td>1/2 Teaspoon</td>
+                </tr>
+                
+            </thead>
+        </table>    
+        
+        <!-- Insert Brownies Steps Here -->
+        
+        <br>
+        <p><strong>Steps</strong></p>
+        
+        
+        <p>1. Preheat the oven to 325°F. Lightly spray an 8x8 baking dish (not a 9x9 dish or your brownies will overcook) with cooking spray and line it with parchment paper. Spray the parchment paper.
+<br> <br>
+2. In a medium bowl, combine the sugar, flour, cocoa powder, powdered sugar, chocolate chips, and salt.
+<br> <br>
+3. In a large bowl, whisk together the eggs, olive oil, water, and vanilla.
+<br> <br>
+4. Sprinkle the dry mix over the wet mix and stir until just combined.
+<br> <br>
+5. Pour the batter into the prepared pan (it'll be thick - that's ok) and use a spatula to smooth the top. Bake for 40 to 48 minutes, or until a toothpick comes out with only a few crumbs attached (note: it's better to pull the brownies out early than to leave them in too long). Cool completely before slicing.*** Store in an airtight container at room temperature for up to 3 days. These also freeze well!
+</p>
+
+
+    <p class="Recipes Sources"><em><strong>Source:</strong> <a href="https://www.loveandlemons.com/brownies-recipe/#wprm-recipe-container-42107">Best Homemade Brownies Recipe</a></em></p>
+    
+
+
+
+
+
+
+
+
+        <!-- Recipe 2: Cookies -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <h2 id="CookieRecipe">Recipe #2 - <i>Cookies</i></h2>
+        
+        <ul class="Recipes">
+            <li><strong>Time:</strong> 30 </li>
+            <li><strong>Serves:</strong> 36 Cookies</li>
+        </ul>
+        
+        <!-- Table Begins -->
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+                
+                <tr>
+                    <td>Salted Butter</td>                   <td>1 Cup</td>
+                    </tr>
+                    
+                     <tr>
+                    <td>White Granulated Sugar</td>                   <td>1 Cup</td>
+                    </tr>
+                    
+                     <tr>
+                    <td>Light Brown Sugar</td>                   <td>1 Cup</td>
+                    </tr>
+                     <tr>
+                    <td>Pure Vanilla Extract</td>                   <td>2 Tablespoons</td>
+                    </tr>
+                    
+                     <tr>
+                    <td>Large Eggs</td>                   <td>2</td>
+                    </tr>
+                    
+                     <tr>
+                    <td>All-Purpose Flour</td>                   <td>3 Cups</td>
+                    </tr>
+                     <tr>
+                    <td>Baking Soda</td>                   <td>1 Teaspoon</td>
+                    </tr>
+                    
+                     <tr>
+                    <td>Baking Powder</td>                   <td>1/2 Teaspoon</td>
+                    </tr>
+                    
+                     <tr>
+                    <td>Sea Salt</td>                   <td>1 Teaspoon</td>
+                    </tr>
+                    
+                   <tr>
+                    <td>Chocolate Chips</td>                   <td>2 Cups</td>
+                    </tr>
+                    
+            </thead>
+        </table>    
+        
+        
+        <br>
+        <p><strong>Steps</strong></p>
+        <p>1. Soften butter. If you are planning on making these, take the butter out of the fridge first thing in the morning so it’s ready to go when you need it.
+<br><br> 2. Measure the flour correctly. Be sure to use a measuring cup made for dry ingredients (NOT a pyrex liquid measuring cup). There has been some controversy on how to measure flour. I personally use the scoop and shake method and always have (gasp)! It’s easier and I have never had that method fail me.  Many of you say that the only way to measure flour is to scoop it into the measuring cup and level with a knife. I say, measure it the way you always do. Just make sure that the dough matches the consistency of the dough in the photos in this post. 
+<br><br> 3. Use LOTS of chocolate chips. Do I really need to explain this?!
+<br><br> 4. DO NOT over-bake these chocolate chip cookies! I explain this more below, but these chocolate chip cookies will not look done when you pull them out of the oven, and that is GOOD.</p>
+        
+        
+        
+    <p class="Recipes Sources"><em><strong>Source:</strong> <a href="https://joyfoodsunshine.com/the-most-amazing-chocolate-chip-cookies/">The Best Chocolate Chip Cookie Recipe Ever</a></em></p>
+    
+    
+    <h2 id="LemonadeRecipe">Recipe #3 - <i>Lemonade</i></h2>
+          <ul class="Recipes">
+            <li><strong>Time:</strong> 4 Hours and 35 Minutes</li>
+            <li><strong>Serves:</strong> 10 (8 ounce)</li>
+        </ul>
+        
+    
+            <!-- Table Begins -->
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+                
+                <tr>
+                    <td>White Sugar</td>                   <td>1 3/4 Cup</td>
+                    </tr>
+                    
+                <tr>
+                    <td>Water</td>                   <td>8 Cup</td>
+                    </tr>
+
+<tr>
+                    <td>Lemon Juice</td>                   <td>1 1/2 Cup</td>
+                    </tr>
+
+
+
+<br>
+     
+            </thead>
+        </table>    
+       
+       
+        <p><strong>Steps</strong></p>
+        <p>1. In a small saucepan, combine sugar and 1 cup water. Bring to boil and stir to dissolve sugar. Allow to cool to room temperature, then cover and refrigerate until chilled.
+<br> <br>
+2. Remove seeds from lemon juice, but leave pulp. In pitcher, stir together chilled syrup, lemon juice and remaining 7 cups water.</p> 
+    
+    <p class="Recipes Sources"><em><strong>Source:</strong> <a href="https://www.allrecipes.com/recipe/32385/best-lemonade-ever/">Best Lemonade Ever</a></em></p>
+    
+    
+    <br>
+    <br>
+    <br>
+    
+</div>
+
+<div class="footer">
+    <h4><a href="#BeginingOfPage">Click to jump back up.</a></h4>
+
+</div>
+
+</body>
+</html>
