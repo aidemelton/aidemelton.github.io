@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Administrator Panel - Carnival Intern Program</title>
+        <meta charset="utf-8">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+       
+        <style>
+        .Recipes{
+            background-color: rgb(242,3,26,255);
+            opacity: 0.8;
+            color: rgba(255,255,255,1);
+            border-radius: 6px;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .Space {
+            margin: 7px;
+            padding: 10px;
+        }
+        
+        .Sources { 
+            text-align: center;
+        }
+       
+       
+        .topNav {
+         background: rgba(242,3,26,255);
+        }
+        
+        .header {
+          padding: 60px;
+          text-align: center;
+          margin: 0;
+          background-image: url("https://www.gannett-cdn.com/presto/2019/01/30/PBRE/34426696-2ae2-49d3-8edd-77f9c1413d59-SportSq_04_rev2.jpg");
+          background-position: center;
+          background-size: auto;
+          border-radius: 0px;
+          opacity: 0.9;
+          /* background-image: linear-gradient(to right, rgba(8, 207, 91,1), rgba(110, 222, 104,1)); */ }
+    
+        .footer {
+          padding: 29px;
+          text-align: center;
+          margin: 0;
+          border-radius: 0px;
+          background: rgba(242,3,26,255);
+          opacity: 0.9;
+          /* background-image: linear-gradient(to right, rgba(8, 207, 91,1), rgba(110, 222, 104,1)); */ }
+          
+         .footer:hover {
+             opacity: 1;
+             cursor: pointer;
+         }
+    
+        .button {
+          background-color: rgba(242,3,26,255); 
+          border: none;
+          border-radius: 0px;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-weight: bold;
+          font-size: 16px;
+          margin: 0px -2px;
+          cursor: pointer;
+          -webkit-transition-duration: 0.4s; /* Safari */
+          transition-duration: 0.4s;
+        }
+               	
+        .ButtonDisabled {
+          background-color: rgba(242,3,26,255); 
+          border: none;
+          border-radius: 0px;
+          opacity: 0.6;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 0px -2px;
+          cursor: pointer;
+          -webkit-transition-duration: 0.4s; /* Safari */
+          transition-duration: 0.4s;
+        }
+        
+        .round {
+        border-radius: 5px;
+        margin: 2px;
+        }
+        
+        
+        .ButtonDisabled:hover {
+            cursor: not-allowed;
+        }
+        
+        .button:hover {
+            opacity: .8;
+            box-shadow: 0 0px 5px 0 rgba(0, 0, 0,.2),0 0px 0px 0
+        }
+        
+        
+        #FontColorWhite {
+            color: rgba(255,255,255,1);
+            text-align: center;
+            background: rgba(58, 161, 60);
+            opacity: 0.9;
+            font-weight: bold;
+        }
+        
+        h2 {
+            color: rgba(245,53,72,255);
+        }
+        h1 {
+            color: rgb(255, 255, 255);
+            font-size: 42px;
+          
+        }
+        
+        a {
+            color: rgba(133, 0, 0);
+        }
+        
+        </style>
+    </head>
+    <body>
+       
+<div class="header"><div class="FontColorWhite"><h1 id="BeginingOfPage">Administrator Panel</h1></div></div>
+
+<div class="topNav">
+        <a href="#Textbooks"><button class="button">Textbooks</button></a>
+        <a href="#HomeworkPackets"><button class="button">Homework Packets</button></a>
+        <a href="#Other"><button class="button">Other</button></a>
+</div>
+        
+<div class="Space">
+
+
+<!-- Textbooks -->
+        
+        <h2 id="Textbooks">Textbooks</h2>
+        
+        <p>All textbooks are to stay confidencial until they are released publicly to the program.<br><br></p> 
+    
+
+<button class="button round ButtonDisabled">Stage One</button>
+<button class="button round ButtonDisabled">Stage Two</button>
+<button class="button round ButtonDisabled">Stage Three</button>
+
+
+
+
+
+
+
+<!-- Homeowork Packets -->
+
+        <br><br><br><br>
+        
+        <h2 id="HomeworkPackets">Homework Packets</h2>
+        
+        <p>Below are the homework packets that will be used throughout the course of this program. <br><br><i>*All homework packets are graded by Program Heads.</i>
+        </p>
+<button class="button round ButtonDisabled">Packet One</button>
+<button class="button round ButtonDisabled">Packet Two</button>
+<button class="button round ButtonDisabled">Packet Three</button>   
+        
+<!-- Other -->
+
+        <br><br><br><br>
+        
+        <h2 id="Other">Other</h2>
+        <p>Any sheets, documents, etc that are not categorized will be labeled here.
+        </p>
+<button class="button round ButtonDisabled">Classroom</button>
+<button class="button round ButtonDisabled">Grades</button>
+
+        
+
+
+
+    
+<!-- End of Page -->
+    
+    <br>
+    <br>
+    <br>
+    
+</div>
+
+<div class="footer">
+    <h4><a href="#BeginingOfPage">Click to jump back up.</a></h4>
+
+</div>
+
+</body>
+</html>
